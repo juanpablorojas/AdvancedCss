@@ -3,7 +3,14 @@
 Reset Styles
 ****************************
 ***************************/
+@import 'normalize.css';
+html {
+    box-sizing: border-box;
+}
 
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
 /***************************
 ****************************
@@ -72,6 +79,10 @@ Layout Styles
 
     .col-2-3 {
         width: 66.66%;
+    }
+
+    .pull-right-sm {
+        float: right;
     }
 }
 
